@@ -10,7 +10,7 @@ function preload() {
 
 function setup() {
     //bg = loadImage("map.jpg");
-    createCanvas(3000, 3000); //??? do i need to create a canvas in this case?
+    createCanvas(3000, 700); //??? do i need to create a canvas in this case?
     image(img, 0, 0, 1000, 700);
 
 
