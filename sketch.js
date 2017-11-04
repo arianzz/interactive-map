@@ -19,7 +19,7 @@ function setup() {
     myButton.style("border-radius", "50%");
     myButton.style("background-color", "blue");
     myButton.style("border", "none");
-    myButton.position(135, 400);
+    myButton.position(285, 390);
     myButton.size(10, 10);
     myButton.mousePressed(myButtonPressed);
 
