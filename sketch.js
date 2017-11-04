@@ -5,7 +5,7 @@ var backButton;
 var img;
 
 function preload() {
-    img = loadImage("map.png");
+    img = loadImage("map2.png");
 }
 
 function setup() {
