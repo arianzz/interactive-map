@@ -5,13 +5,13 @@ var backButton;
 var img;
 
 function preload() {
-    img = loadImage("map.jpg");
+    img = loadImage("map2.png");
 }
 
 function setup() {
     //bg = loadImage("map.jpg");
-    createCanvas(800, 800); //??? do i need to create a canvas in this case?
-    image(img, 0, 0, 700, 700);
+    createCanvas(1500, 1500); //??? do i need to create a canvas in this case?
+    image(img, 0, 0, 1000, 700);
 
 
     // image(img,0,0,1800,1800,0,1000);
@@ -19,7 +19,7 @@ function setup() {
     myButton.style("border-radius", "50%");
     myButton.style("background-color", "blue");
     myButton.style("border", "none");
-    myButton.position(135, 400);
+    myButton.position(285, 390);
     myButton.size(10, 10);
     myButton.mousePressed(myButtonPressed);
 
@@ -55,7 +55,7 @@ function backButtonPressed() {
     document.getElementById("canvas").style.display = "none";
     // image(img, 0, 0, 800, 800);
     // image(img, 0, 0, 1800, 1800, 0, 1000);
-    image(img, 0, 0, 700, 700);
+    image(img, 0, 0, 1000, 700);
     backButton.style("visibility", "hidden");
     myButton.style("visibility", "visible");
     magazine("hidden");
