@@ -6,3 +6,8 @@ html, body {
 .thumbnails.d{
   display: none !important;
 }
+
+.magazine.animated {
+    left: 275px !important;
+    margin-left: 0px !important;
+}
