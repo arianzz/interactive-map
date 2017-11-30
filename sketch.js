@@ -43,7 +43,7 @@ function myButtonPressed() {
     background(255);
     document.getElementById("canvas").style.display = "block";
     image("hidden");
-    myButton.style("visibility", "hidden");
+    myButton.style("hidden");
     backButton.style("visibility", "visible");
     backButton.style("z-index", "9999");
     magazine("visible");
