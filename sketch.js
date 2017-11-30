@@ -47,7 +47,7 @@ function myButtonPressed() {
     myButton.style("visibility", "hidden");
     backButton.style("visibility", "visible");
     backButton.style("z-index", "9999");
-    // magazine("visible");
+    magazine("visible");
     console.log(backButton);
 }
 
@@ -59,7 +59,7 @@ function backButtonPressed() {
     image(img, 0, 0, 1000, 700);
     backButton.style("visibility", "hidden");
     myButton.style("visibility", "visible");
-    // magazine("hidden");
+    magazine("hidden");
 }
 
 
