@@ -42,7 +42,7 @@ function draw() {
 function myButtonPressed() {
   console.log('my button pressed');
     background(255);
-    document.getElementById("canvas").style.display = "block";
+    // document.getElementById("canvas").style.display = "block";
     image(img, 0, 0, 1800, 1800, 0, 1000);
     myButton.style("visibility", "hidden");
     backButton.style("visibility", "visible");
