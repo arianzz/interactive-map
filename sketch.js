@@ -42,8 +42,8 @@ function draw() {
 function myButtonPressed() {
     background(255);
     document.getElementById("canvas").style.display = "block";
-    image("hidden");
-    myButton("hidden");
+    image(img, 0, 0, 1800, 1800, 0, 1000);
+    myButton.style("visibility", "hidden");
     backButton.style("visibility", "visible");
     backButton.style("z-index", "9999");
     magazine("visible");
