@@ -171,7 +171,7 @@ function loadLargePage(page, pageElement) {
 	img.load(function() {
 
 		var prevImg = pageElement.find('img');
-		$(this).css({width: '100%', height: '100%'});
+		$(this).css({width: '80%', height: '80%'});
 		$(this).appendTo(pageElement);
 		prevImg.remove();
 
